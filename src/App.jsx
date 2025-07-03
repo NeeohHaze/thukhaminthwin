@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, ... } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import Home from './pages/Home';

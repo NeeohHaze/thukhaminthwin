@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite'
-// ... other imports if you have them
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  // ...other config
-  base: '/thukhaminthwin/',
-})
+  plugins: [react()],
+});
